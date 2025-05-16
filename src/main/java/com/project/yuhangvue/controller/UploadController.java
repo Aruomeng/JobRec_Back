@@ -46,7 +46,5 @@ public class UploadController {
             return Result.error("文件上传失败" );
         }
     }
-
-
 }
 

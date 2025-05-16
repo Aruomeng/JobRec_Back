@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Service
 public interface UserService {
+    
     Result login(@RequestBody LoginDTO loginDTO);
 
     Result getInfo(@RequestParam Long userId, @RequestParam Integer scope);
